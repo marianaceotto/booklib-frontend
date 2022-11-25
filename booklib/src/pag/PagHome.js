@@ -1,15 +1,13 @@
 import {Header} from "../components/Header"
-import {Filtro} from "../components/Filtro"
-import {Produtos} from "../components/Produtos"
+import {Main} from "../components/Main"
 
 
 export function PagHome () {
-    
+
     return(
         <div>
         <Header/>
-        <Filtro/>
-        <Produtos/>
+        <Main/>
         </div>
     )
 }
