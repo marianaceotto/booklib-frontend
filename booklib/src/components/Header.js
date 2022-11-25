@@ -1,5 +1,6 @@
 import {HeaderContainer} from "./StyledComponents"
-import {Carrinho} from "./Carrinho"
+import carrinho from "../assets/carrinho.png"
+
 
 export function Header (){
     return (
@@ -9,10 +10,13 @@ export function Header (){
             <a>
                 BooksLib    
             </a>
+
+            <button>
+            <img src = {carrinho} alt ="Logo-Carrinho"></img>
+            </button>
             
         </div>
-            
-        <Carrinho/>
+
 
         </HeaderContainer>
         
