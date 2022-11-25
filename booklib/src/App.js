@@ -1,4 +1,4 @@
-import {PagHome} from "./Pag/PagHome"
+import {PagHome} from "./pag/PagHome"
 
 
 function App() {
