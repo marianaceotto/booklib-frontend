@@ -1,27 +1,27 @@
-import user from "../../assets/user.svg"
-import favorite from "../../assets/favorite.svg"
+import {DivHeader} from "./styleHeader"
 import cart from "../../assets/cart.svg"
-
-export function Header () {
-
+import favorite from "../../assets/favorite.svg"
 
 
-    return (
+
+
+export function Header(){
+
+
+
+    return(
+        <DivHeader>
         <>
-        <a>BookLib</a>
-
-
-        <div>
-            <img src={user} alt="user"/>
-        <p>Olá, <br/>
-        Faça seu login</p>
-        </div>
-
-        <div>
-            <img src= {favorite} alt ="favoritos"/>
-            <img src = {cart} alt ="carrinho"/>
-        </div>
-
-        </>
+            <div>
+                <a>BookLib</a>
+            </div>
+        
+            <div>
+                <img src={favorite} alt="favoritos"/>
+                <img src={cart} alt="carrinho"/>
+            </div>
+            </>
+        </DivHeader>
     )
 }
+
