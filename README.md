@@ -1,6 +1,10 @@
 # BookLib
 
+<<<<<<< HEAD
 ![preview](./booklib/src/assets/booklib.png)
+=======
+![preview](../../assets/booklib.png)
+>>>>>>> 68d49fa412cbaeeaa962fa2502d7404cc4be8a78
 
 ## 📄 Introdução
 
