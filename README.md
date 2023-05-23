@@ -1,6 +1,6 @@
 # BookLib
 
-![preview](./booklib/src/assets/booklib.png)
+![preview](./src/assets/booklib.png)
 
 ## 📄 Introdução
 
